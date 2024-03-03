@@ -27,7 +27,7 @@ const App = () => {
 
   return (
     <div className='app'>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={ <HomePage />} />
           <Route path='/webApp' element={ <WebAppPage /> }></Route>
