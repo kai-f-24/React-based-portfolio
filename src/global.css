@@ -1,0 +1,143 @@
+html {
+    background-color: black;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    /* overflow-y: hidden; */
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
+
+/* active状態と非active状態時の横幅をカスタム変数で指定 */
+:root {
+    --active-width: 60vw;
+    --inactive-width: 10vw;
+    --active-contact-width: 90vw;
+    --inactive-contact-width: 50vw;
+    --active-profile-width: 50vw;
+}
+
+.container {
+    transition: 0.4s;
+}
+
+/* 非active状態の要素（下）のスタイル */
+.inactive {
+    width: var(--inactive-width);
+}
+
+.text-in-active h1 {
+    display: none;
+}
+
+.inactive-contact {
+    width: var(--inactive-contact-width);
+}
+
+.inactive-profile {
+    width: var(--inactive-width);
+}
+
+.inactive-profile h1,
+.inactive-profile p{
+    display: none;
+}
+
+/* active状態の要素（下）のスタイル */
+.active {
+    width: var(--active-width);
+}
+
+.text-active h1{
+    text-align: left;
+    font-size: 8.3vw;
+}
+
+.active h2 {
+    display: none;
+}
+
+/* コンタクトページ */
+
+.active-contact {
+    width: var(--active-contact-width);
+}
+
+.active-profile {
+    width: var(--active-profile-width);
+}
+
+.active-profile h1 {
+    font-size: 8.3vw;
+}
+
+.active-profile h2 {
+    display: none;
+}
+
+/* ホバーに関するスタイル */
+
+.active.hover{
+    width: var(--active-width);
+}
+
+.active.inhover{
+    width: calc(var(--active-width) - 0.6vw);
+}
+
+/* .contact {
+    width: 20vw;
+} */
+
+.inactive.hover {
+    width: calc(var(--inactive-width) + 2.4vw);
+}
+
+.inactive.inhover {
+    width: calc(var(--inactive-width) - 0.6vw);
+}
+
+/* コンタクトページ */
+.inactive-contact.hover-contact {
+    width: calc(var(--inactive-contact-width) + 5vw);
+}
+
+.active-profile.inhover-profile {
+    width: calc(var(--active-profile-width) - 5vw);
+}
+
+.inactive-profile.hover-profile {
+    width: calc(var(--inactive-width) + 0.8vw);
+}
+
+.active-contact.inhover-contact {
+    width: calc(var(--active-contact-width) - 0.8vw);
+}
+
+.date-github-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.github {
+    color: rgba(240, 248, 255, 0.539);
+    margin-left: 12px;
+}
+
+/* .contact.inactive {
+    width: 20vw;
+} */

@@ -1,0 +1,133 @@
+form {
+    height: 0px;
+}
+
+.contact-container {
+    background-color: white;
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 135px;
+    font-size: 30px;
+}
+
+.h1 {
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 4rem;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10vw; */
+    /* opacity: 0.5; */
+}
+
+/* form {
+    width: 600px;
+} */
+
+.form-content {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    /* background-color: black; */
+    /* opacity: 0.5; */
+    /* width: fit-content; */
+}
+
+.label-name {
+    display: block;
+    margin-right: 18.3rem;
+    margin-bottom: 1.5px;
+    font-size: 18px;
+}
+
+.label-subject {
+    display: block;
+    margin-right: 23.2rem;
+    margin-bottom: 1.5px;
+    font-size: 18px;
+}
+
+.label-message {
+    display: block;
+    margin-right: 23.2rem;
+    margin-bottom: 1.5px;
+    font-size: 18px;
+}
+
+input {
+    display: block;
+    width: 410px;
+    height: 50px;
+    margin-bottom: 26px;
+}
+
+textarea {
+    display: block;
+    width: 410px;
+    height: 165px;
+    margin-bottom: 65px;
+    resize: none;
+}
+
+.button {
+    /* position: relative; */
+    /* left: 50%; */
+    background-color: rgb(0, 0, 0);
+    border: solid 1px;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
+    color: aliceblue;
+    z-index: 2;
+}
+
+.circle-wrapper {
+    position: relative;
+    top: 418.5px;
+    width: 110px;
+    height: 110px;
+    margin: 40px auto;
+    font-size: 17px;
+    animation: donut-spin 10s linear infinite;
+    z-index: 0;
+}
+
+.wrapper-svg {
+    overflow: visible;
+    z-index: 0;
+}
+
+.wrapper-path {
+    fill: none;
+    z-index: 0;
+}
+
+.off-text {
+    /* z-index: 2; */
+    display: none;
+    fill: #0089A7;
+    z-index: 0;
+}
+
+.on-text {
+    display: block;
+    fill: #0089A7;
+    z-index: 0;
+}
+
+@keyframes donut-spin {
+    to {
+        transform: rotate(1turn);
+    }
+}
+

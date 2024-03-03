@@ -1,0 +1,114 @@
+.webAppWrapper {
+    /* width: 60vw; */
+    /* width: 10vw; */
+    height: 100vh;
+    /* background-color: #7CFEF0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* 各背景色 */
+.welcome-color {
+    background-color: white;
+}
+
+.web-app-color {
+    background-color: #7CFEF0;
+}
+
+.web-site-color {
+    background-color: #2CEAA3;
+}
+
+.mobile-app-color {
+    background-color: #2A6041;
+    ;
+}
+
+.contact-color {
+    background-color: black;
+}
+
+.contact-h2 {
+    background-color: black;
+}
+
+/* 各h1タグのスタイル */
+h1 {
+    color: black;
+}
+
+.welcome-h1 {
+    color: chartreuse;
+}
+
+.web-app-h1 {
+    margin-left: 3rem;
+    color: deepskyblue;
+}
+
+.web-site-h1 {
+    color: lightcoral;
+}
+
+.mobile-app-h1 {
+    margin-left: 3rem;
+    color: mediumaquamarine;
+}
+
+.contact-h1-color {
+    color: white;
+    /* font-size: 8.3vw; */
+}
+
+
+
+/* 各h2タグ */
+.welcome-h2 {
+    color: rgb(0, 0, 0);
+    writing-mode: vertical-lr;
+    position: relative;
+    font-size: 2rem;
+    top: 7.23rem;
+    transform: rotate(180deg);
+}
+
+.web-app-h2 {
+    /* display: none; */
+    writing-mode: vertical-lr;
+    position: relative;
+    font-size: 2rem;
+    top: 3.66rem;
+    /* left: 50%; */
+    transform: rotate(180deg);
+}
+
+.web-site-h2 {
+    /* display: none; */
+    writing-mode: vertical-lr;
+    position: relative;
+    font-size: 2rem;
+    top: 7.39rem;
+    transform: rotate(180deg);
+}
+
+.mobile-app-h2 {
+    /* display: none; */
+    writing-mode: vertical-lr;
+    position: relative;
+    font-size: 2rem;
+    transform: rotate(180deg);
+}
+
+.contact-h2 {
+        /* display: none; */
+        color: rgb(255, 255, 255);
+        writing-mode: vertical-lr;
+        position: relative;
+        font-size: 2rem;
+        top: 7.15rem;
+        transform: rotate(180deg);
+}
+
