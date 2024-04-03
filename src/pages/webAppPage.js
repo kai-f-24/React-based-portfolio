@@ -28,7 +28,7 @@ const WebAppPage = () => {
         "ガントチャート": {
             img: GanttChartImg,
             date: "2024/02",
-            github:"",
+            github:"https://github.com/nekokujira24wase/gantt-chart",
             introduction: `
             2024年2月に制作したアプリです。
             プログラミングを学び１年が経とうとしていたので、節目として何かを作りたいと思い、フロントはフレームワークなどを用いず
